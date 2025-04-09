@@ -43,3 +43,9 @@ def process_images(input_folder, output_folder, n=20):
 
     wb.save(excel_filename)
     print(f"处理完成，灰度均值已保存至 {excel_filename}")
+
+if __name__ == '__main__':
+    input_folder = ""
+    output_folder = ""
+    n = 20
+    process_images(input_folder, output_folder, n)
